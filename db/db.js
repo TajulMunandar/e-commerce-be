@@ -2,10 +2,10 @@ const mysql = require("mysql2");
 
 // Membuat koneksi ke database MySQL
 const db = mysql.createConnection({
-  host: "localhost", // Ganti sesuai host MySQL kamu
-  user: "root", // Username MySQL kamu
-  password: "", // Password MySQL kamu
-  database: "e-commerce", // Nama database yang mau dipakai
+  host: "https://e-commerce.developerdadakan.com/", // Ganti sesuai host MySQL kamu
+  user: "u1585994_e-commerce", // Username MySQL kamu
+  password: "aeibWTe1.j-0", // Password MySQL kamu
+  database: "u1585994_e-commerce", // Nama database yang mau dipakai
 });
 
 // Connect ke database
